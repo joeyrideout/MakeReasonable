@@ -15,6 +15,17 @@ echo '"\e[B":history-searc-forward' >> ~/.inputrc
 # export HISTFILE=~/.bash_eternal_history
 # PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
+# Add my custom bash aliases.
+echo "alias g='git status'" >> ~/.bashrc
+echo "alias gs='git status'" >> ~/.bashrc
+echo "alias gl='git log'" >> ~/.bashrc
+echo "alias gb='git branch'" >> ~/.bashrc
+echo "alias cd ...='cd ../..'" >> ~/.bashrc
+echo "alias cd ...='cd ../../..'" >> ~/.bashrc
+echo "alias b='cd -'" >> ~/.bashrc
+echo "alias v='vim'" >> ~/.bashrc
+echo "alias c='clear'" >> ~/.bashrc
+
 # Make sure Vim is installed.
 sudo apt-get install vim
 
