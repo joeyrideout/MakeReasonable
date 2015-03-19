@@ -41,6 +41,7 @@ echo "alias c='clear'" >> ~/.bashrc
 echo "alias a='ack-grep'" >> ~/.bashrc
 echo "alias ack='ack-grep'" >> ~/.bashrc
 echo "alias grm='git diff --diff-filter=D --name-only -z | xargs -0 git rm'" >> ~/.bashrc
+echo "alias rmpyc='find . -name \*.pyc -delete'" >> ~/.bashrc
 
 # Make sure Vim is installed.
 sudo apt-get install vim
