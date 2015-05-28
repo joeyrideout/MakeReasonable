@@ -57,6 +57,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 # Install pathogen plugins.
 cd ~/.vim/bundle
 git clone https://github.com/nvie/vim-flake8.git  # PEP 8
+pip install jedi
 git clone git://github.com/davidhalter/jedi-vim.git  # Python code-completion
 git clone https://github.com/mattn/emmet-vim.git  # Fast HTML eiditing
 
