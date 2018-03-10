@@ -53,15 +53,15 @@ wget https://raw.githubusercontent.com/joeyrideout/myvimrc/master/vimrc
 mv vimrc ~/.vimrc
 
 # Install vim-pathogen.
-mkdir -p ~/.vim/autoload ~/.vim/bundle
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+# mkdir -p ~/.vim/autoload ~/.vim/bundle
+# curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 # Install pathogen plugins.
-cd ~/.vim/bundle
-git clone https://github.com/nvie/vim-flake8.git  # PEP 8
-pip install jedi
-git clone git://github.com/davidhalter/jedi-vim.git  # Python code-completion
-git clone https://github.com/mattn/emmet-vim.git  # Fast HTML eiditing
+# cd ~/.vim/bundle
+# git clone https://github.com/nvie/vim-flake8.git  # PEP 8
+# pip install jedi
+# git clone git://github.com/davidhalter/jedi-vim.git  # Python code-completion
+# git clone https://github.com/mattn/emmet-vim.git  # Fast HTML eiditing
 
 # Install ack-grep.
 sudo apt-get install ack-grep
