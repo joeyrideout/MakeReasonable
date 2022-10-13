@@ -28,6 +28,7 @@ alias b='cd -'
 alias v='vim'
 alias c='clear'
 alias ack='ack-grep'
+alias gg='git add . && git commit -m wip && git push'
 echo "alias ack='ack-grep'" >> ~/.bashrc
 echo "alias g='git status'" >> ~/.bashrc
 echo "alias gs='git status'" >> ~/.bashrc
@@ -44,6 +45,7 @@ echo "alias a='ack-grep'" >> ~/.bashrc
 echo "alias ack='ack-grep'" >> ~/.bashrc
 echo "alias grm='git diff --diff-filter=D --name-only -z | xargs -0 git rm'" >> ~/.bashrc
 echo "alias rmpyc='find . -name \*.pyc -delete'" >> ~/.bashrc
+echo "alias gg='git add . && git commit -m wip && git push'" >> ~/.bashrc
 
 # Make sure Vim is installed.
 sudo apt-get install vim
